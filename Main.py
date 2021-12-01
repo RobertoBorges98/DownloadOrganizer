@@ -8,7 +8,8 @@ EXT_IMG = ['png', 'jpg', 'jpeg', 'gif', 'svg', 'bmp', 'tiff', 'tiff', 'jfif']
 EXT_DOCS = ['txt', 'pdf', 'csv', 'xls', 'ods', 'doc', 'docx', 'html', 'odt', 'tax', 'ppt', 'pptx', 'log']
 EXT_COMPR = ['zip', 'z', '7z', 'rar', 'tar', 'gz', 'rpm', 'pkg', 'deb']
 EXT_INSTL = ['dmg', 'exe', 'iso']
-EXT_PYTHON = ['py']
+EXT_PYTHON = ['py', 'ipynb']
+
 
 BASE_PATH = os.path.expanduser('~')
 DEST_DIRS = ['Music', 'Movies', 'Pictures', 'Documents', 'Applications', 'Other', 'Python Files']
